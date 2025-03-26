@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alishba | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="profile-pic-container">
+          <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+        </div>
+        <h1>Hello, I'm Alishba</h1>
+        <h2><span id="typed-text"></span></h2>
+      </div>
+    </div>
+  </section>
+
+  <header>
+    <nav class="custom-navbar">
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate front-end developer with a growing interest in cybersecurity and creative design.
+        I enjoy turning ideas into beautiful, responsive websites and apps. Currently learning JavaScript, React,
+        and improving my UI/UX skills.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal website built using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <h3>Cybersecurity Pac-Man Game</h3>
+          <p>Gamified learning app for cybersecurity basics.</p>
+        </div>
+        <div class="project-card">
+          <h3>FinTech Insights Dashboard</h3>
+          <p>A responsive dashboard built with dummy finance data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience" data-aos="fade-up">
+    <div class="container">
+      <h2>My Experience</h2>
+      <div class="timeline">
+  
+        <div class="timeline-entry left">
+          <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
+
+          <h3>Intern – Software QA & Cybersecurity</h3>
+          <h4>Farmingdale State College</h4>
+          <p>Assisted in identifying software bugs, performing penetration testing demos, and writing basic test cases for internal tools.</p>
+          <p class="date">Summer 2023</p>
+        </div>
+  
+        <div class="timeline-entry right">
+          <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
+          <h3>Teacher Assistant</h3>
+          <h4>Farmingdale State College</h4>
+          <p>Assisted with classroom activities, supervised children during campus walks, snack time, and naptime. Helped maintain a positive and educational environment for early childhood learning.</p>
+          <p class="date">Sep 2024 – Present</p>
+        </div>
+  
+        <div class="timeline-entry left">
+          <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
+          <h3>Stocker</h3>
+          <h4>Local Convenience Store</h4>
+          <p>Organized and stocked shelves, managed inventory, and assisted customers with purchases to ensure a clean and efficient store environment.</p>
+          <p class="date">2022 – 2023</p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="skills" data-aos="fade-up">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML Icon">
+          <p>HTML</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon">
+          <p>CSS</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript Icon">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python Icon">
+          <p>Python</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/7514/7514034.png" alt="Cybersecurity Icon">
+          <p>Cybersecurity</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/7770/7770945.png" alt="QA Testing Icon">
+          <p>QA Testing</p>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/3132/3132084.png" alt="UI/UX Icon">
+          <p>UI/UX Design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="education" class="education" data-aos="fade-up">
+    <div class="container">
+      <h2>My Education</h2>
+      <div class="education-card">
+        <img 
+          src="farmingdale-logo.png" 
+          alt="Farmingdale State College Logo" 
+          style="width: 240px; height: 130px; border-radius: 10px; background: white; padding: 5px;" 
+        />
+        <div class="education-details">
+          <h3>Bachelor of Science in Science, Technology & Society</h3>
+          <p>Farmingdale State College</p>
+          <p>GPA: 3.2</p>
+          <ul>
+            <li>Minor in Cybersecurity</li>
+            <li>Cybersecurity & Software QA Certified</li>
+            <li>Currently learning Front-End & UI/UX</li>
+            <li>Volunteered as a Teaching Assistant</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Let's build something cool together! Reach out via email or social links below.</p>
+      <div class="contact-links">
+        <a href="mailto:alishbasubhan@gmail.com">Email Me</a>
+        <a href="https://www.linkedin.com/in/alishbaloy07" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Alishba. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+<div class="theme-toggle">
+    <i class="fas fa-sun"></i>
+  </div>
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
