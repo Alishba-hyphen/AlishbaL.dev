@@ -1,38 +1,53 @@
-particlesJS("particles-js", {
-    particles: {
-      number: {
-        value: 90,
-        density: {
-          enable: true,
-          value_area: 1000
-        }
-      },
-      color: { value: "#ffffff" },
-      shape: { type: "circle" },
-      opacity: {
-        value: 0.12,
-        random: false
-      },
-      size: {
-        value: 2.5,
-        random: true
-      },
-      move: {
-        enable: true,
-        speed: 0.6,
-        direction: "none",
-        out_mode: "out"
-      }
+const particlesConfig = {
+  particles: {
+    number: {
+      value: 30,
+      density: { enable: true, value_area: 800 },
     },
-    interactivity: {
-      events: {
-        onhover: { enable: true, mode: "repulse" },
-        onclick: { enable: false }
-      },
-      modes: {
-        repulse: { distance: 100 }
-      }
+    color: { value: "#ffffff" },
+    shape: {
+      type: "circle",
+      stroke: { width: 0, color: "#000000" },
     },
-    retina_detect: true
-  });
-  
+    opacity: {
+      value: 0.5,
+      random: false,
+      anim: { enable: false },
+    },
+    size: {
+      value: 3,
+      random: true,
+      anim: { enable: false },
+    },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#ffffff",
+      opacity: 0.3,
+      width: 1,
+    },
+    move: {
+      enable: true,
+      speed: 2,
+      direction: "none",
+      random: false,
+      straight: false,
+      out_mode: "out",
+      bounce: false,
+    },
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: { enable: true, mode: "grab" },
+      onclick: { enable: false },
+      resize: true,
+    },
+    modes: {
+      grab: { distance: 140, line_linked: { opacity: 0.6 } },
+    },
+  },
+  retina_detect: true,
+};
+
+export default particlesConfig;
