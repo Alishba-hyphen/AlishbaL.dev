@@ -12,25 +12,26 @@
 </head>
 <body>
 
-  <section id="hero" class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="profile-pic-container">
-          <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+  <!-- Particle wrapper -->
+  <div id="particles-js">
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="profile-pic-container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+          </div>
+          <h1>Hello, I'm <strong>Alishba</strong>.</h1>
+          <p class="hero-subtitle">
+            I'm a <strong>UI/UX Enthusiast</strong> exploring cybersecurity and creative frontend design.
+          </p>
+          <div class="hero-buttons">
+            <a href="https://github.com/alishbaloya" class="btn" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/alishbaloy07" class="btn btn-outline" target="_blank">LinkedIn</a>
+          </div>
         </div>
-        <h1>Hello, I'm <strong>Alishba</strong>.</h1>
-<p class="hero-subtitle">
-  I'm a <strong>UI/UX Enthusiast</strong> exploring cybersecurity and creative frontend design.
-</p>
-
-<div class="hero-buttons">
-  <a href="https://github.com/alishbaloya" class="btn" target="_blank">GitHub</a>
-  <a href="https://linkedin.com/in/alishbaloy07" class="btn btn-outline" target="_blank">LinkedIn</a>
-</div>
-
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <header>
     <nav class="custom-navbar">
@@ -80,16 +81,13 @@
     <div class="container">
       <h2>My Experience</h2>
       <div class="timeline">
-  
         <div class="timeline-entry left">
           <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
-
           <h3>Intern – Software QA & Cybersecurity</h3>
           <h4>Farmingdale State College</h4>
           <p>Assisted in identifying software bugs, performing penetration testing demos, and writing basic test cases for internal tools.</p>
           <p class="date">Summer 2023</p>
         </div>
-  
         <div class="timeline-entry right">
           <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
           <h3>Teacher Assistant</h3>
@@ -97,7 +95,6 @@
           <p>Assisted with classroom activities, supervised children during campus walks, snack time, and naptime. Helped maintain a positive and educational environment for early childhood learning.</p>
           <p class="date">Sep 2024 – Present</p>
         </div>
-  
         <div class="timeline-entry left">
           <span class="timeline-icon"><i class="fas fa-briefcase"></i></span>
           <h3>Stocker</h3>
@@ -105,57 +102,30 @@
           <p>Organized and stocked shelves, managed inventory, and assisted customers with purchases to ensure a clean and efficient store environment.</p>
           <p class="date">2022 – 2023</p>
         </div>
-  
       </div>
     </div>
   </section>
-  
 
   <section id="skills" class="skills" data-aos="fade-up">
     <div class="container">
       <h2>My Skills</h2>
       <div class="skills-grid">
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML Icon">
-          <p>HTML</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon">
-          <p>CSS</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript Icon">
-          <p>JavaScript</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python Icon">
-          <p>Python</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/7514/7514034.png" alt="Cybersecurity Icon">
-          <p>Cybersecurity</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/7770/7770945.png" alt="QA Testing Icon">
-          <p>QA Testing</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/3132/3132084.png" alt="UI/UX Icon">
-          <p>UI/UX Design</p>
-        </div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML Icon"><p>HTML</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS Icon"><p>CSS</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript Icon"><p>JavaScript</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python Icon"><p>Python</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/7514/7514034.png" alt="Cybersecurity Icon"><p>Cybersecurity</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/7770/7770945.png" alt="QA Testing Icon"><p>QA Testing</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/3132/3132084.png" alt="UI/UX Icon"><p>UI/UX Design</p></div>
       </div>
     </div>
   </section>
-  
+
   <section id="education" class="education" data-aos="fade-up">
     <div class="container">
       <h2>My Education</h2>
       <div class="education-card">
-        <img 
-          src="farmingdale-logo.png" 
-          alt="Farmingdale State College Logo" 
-          style="width: 240px; height: 130px; border-radius: 10px; background: white; padding: 5px;" 
-        />
+        <img src="farmingdale-logo.png" alt="Farmingdale State College Logo" style="width: 240px; height: 130px; border-radius: 10px; background: white; padding: 5px;" />
         <div class="education-details">
           <h3>Bachelor of Science in Science, Technology & Society</h3>
           <p>Farmingdale State College</p>
@@ -192,13 +162,13 @@
     AOS.init();
   </script>
 
-<div class="theme-toggle">
+  <div class="theme-toggle">
     <i class="fas fa-sun"></i>
   </div>
-  
-<script type="module" src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script src="script.js"></script>
+
+  <!-- Correct script order -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="module" src="script.js"></script>
 
 </body>
 </html>
