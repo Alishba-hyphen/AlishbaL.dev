@@ -1,12 +1,15 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 80,
-      density: { enable: true, value_area: 800 }
+      value: 100,
+      density: { enable: true, value_area: 1000 }
     },
     color: { value: "#ffffff" },
     shape: { type: "circle" },
-    opacity: { value: 0.5 },
+    opacity: {
+      value: 0.5,
+      random: false
+    },
     size: {
       value: 3,
       random: true
@@ -34,7 +37,7 @@ const particlesConfig = {
     },
     modes: {
       grab: {
-        distance: 140,
+        distance: 200,
         line_linked: { opacity: 1 }
       }
     }
