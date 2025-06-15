@@ -647,3 +647,6 @@ html {
   padding: 2rem;
 }
 
+#particles-js canvas {
+  pointer-events: auto !important;
+}
