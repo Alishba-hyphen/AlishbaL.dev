@@ -1,8 +1,10 @@
 import particlesConfig from "./particles-config.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  particlesJS("particles-js", particlesConfig); // attach to #particles-js
+  // Initialize particles.js on the background container
+  particlesJS("particles-js", particlesConfig);
 
+  // Initialize Typed.js animation
   new Typed("#typed-text", {
     strings: ["Front-End Developer", "UI/UX Enthusiast", "Cybersecurity Explorer"],
     typeSpeed: 60,
@@ -10,8 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
     loop: true
   });
 
+  // Theme toggle functionality
   const toggleBtn = document.querySelector(".theme-toggle");
-  toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("light-mode");
-  });
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+    });
+  }
 });
